@@ -1,0 +1,1142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/alex/Dokumente/firma/produkte/rundtisch-nc/ecad/rundtisch-nc/rundtisch-nc.kicad_sch</source>
+    <date>Sa 03 Okt 2020 22:12:33 CEST</date>
+    <tool>Eeschema (5.99.0-3702-g8080647d3-dirty)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>rundtisch-nc.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Display/" tstamps="/9c671529-8352-4d3e-97c2-07dfb212df25/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>display.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="A1">
+      <value>Arduino_UNO_R3</value>
+      <footprint>Module:Arduino_UNO_R3</footprint>
+      <datasheet>https://www.arduino.cc/en/Main/arduinoBoardUno</datasheet>
+      <libsource lib="MCU_Module" part="Arduino_UNO_R3" description="Arduino UNO Microcontroller Module, release 3"/>
+      <property name="Schaltplanname" value=""/>
+      <property name="Sheet file" value="/home/alex/Dokumente/firma/produkte/rundtisch-nc/ecad/rundtisch-nc/rundtisch-nc.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>8c19b43c-225d-43de-bb65-3f28aacaf175</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Schaltplanname" value=""/>
+      <property name="Sheet file" value="/home/alex/Dokumente/firma/produkte/rundtisch-nc/ecad/rundtisch-nc/rundtisch-nc.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>af1738c8-c6c9-40ce-a172-aaff0ec233dd</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Schaltplanname" value=""/>
+      <property name="Sheet file" value="/home/alex/Dokumente/firma/produkte/rundtisch-nc/ecad/rundtisch-nc/rundtisch-nc.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>ea5d039d-c611-4715-8d9c-4c3bf385ff69</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Schaltplanname" value=""/>
+      <property name="Sheet file" value="/home/alex/Dokumente/firma/produkte/rundtisch-nc/ecad/rundtisch-nc/rundtisch-nc.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>70c73cf4-d8e6-48a3-937c-bd476ecf1a70</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>DSK14</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="Schaltplanname" value=""/>
+      <property name="Sheet file" value="/home/alex/Dokumente/firma/produkte/rundtisch-nc/ecad/rundtisch-nc/rundtisch-nc.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>ba084830-5b96-421c-8692-08d4cc4c18a8</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Motor Connector</value>
+      <footprint>sonstige:WJ15EDGRC-3.81-6P</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Schaltplanname" value=""/>
+      <property name="Sheet file" value="/home/alex/Dokumente/firma/produkte/rundtisch-nc/ecad/rundtisch-nc/rundtisch-nc.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>7517861c-1580-41b2-8b94-bca2a5560742</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x02_Male</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Schaltplanname" value=""/>
+      <property name="Sheet file" value="/home/alex/Dokumente/firma/produkte/rundtisch-nc/ecad/rundtisch-nc/rundtisch-nc.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6164744a-7b04-4576-9f51-8424bc4ba06a</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Feed Button Connector</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Schaltplanname" value=""/>
+      <property name="Sheet file" value="/home/alex/Dokumente/firma/produkte/rundtisch-nc/ecad/rundtisch-nc/rundtisch-nc.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6403cd8b-79be-40da-a23e-bd74132cf42b</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Power In</value>
+      <footprint>sonstige:WJ15EDGRC-3.81-2P</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Schaltplanname" value=""/>
+      <property name="Sheet file" value="/home/alex/Dokumente/firma/produkte/rundtisch-nc/ecad/rundtisch-nc/rundtisch-nc.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>2e09791a-222b-4cba-be6a-f0658173a180</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>FXC0630-220M</value>
+      <footprint>sonstige:FXC0630-220M</footprint>
+      <datasheet>~https://datasheet.lcsc.com/szlcsc/Changjiang-Microelectronics-Tech-FXC0630-220M_C208103.pdf</datasheet>
+      <fields>
+        <field name="lcsc">https://lcsc.com/product-detail/Power-Inductors_cjiang-Changjiang-Microelectronics-Tech-FXC0630-220M_C208103.html</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="lcsc" value="https://lcsc.com/product-detail/Power-Inductors_cjiang-Changjiang-Microelectronics-Tech-FXC0630-220M_C208103.html"/>
+      <property name="Schaltplanname" value=""/>
+      <property name="Sheet file" value="/home/alex/Dokumente/firma/produkte/rundtisch-nc/ecad/rundtisch-nc/rundtisch-nc.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4188947b-aa69-4f3e-bdd2-c0be2fd9a6b4</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Schaltplanname" value=""/>
+      <property name="Sheet file" value="/home/alex/Dokumente/firma/produkte/rundtisch-nc/ecad/rundtisch-nc/rundtisch-nc.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>2e7e09f3-1481-4f5f-b5dc-9af33777be63</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Schaltplanname" value=""/>
+      <property name="Sheet file" value="/home/alex/Dokumente/firma/produkte/rundtisch-nc/ecad/rundtisch-nc/rundtisch-nc.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>117e2c3b-b5eb-4e70-9f43-1df651a000e5</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>50K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Schaltplanname" value=""/>
+      <property name="Sheet file" value="/home/alex/Dokumente/firma/produkte/rundtisch-nc/ecad/rundtisch-nc/rundtisch-nc.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>a514a013-3734-45d3-b40f-3455c2203bd0</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>9.53K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Schaltplanname" value=""/>
+      <property name="Sheet file" value="/home/alex/Dokumente/firma/produkte/rundtisch-nc/ecad/rundtisch-nc/rundtisch-nc.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>93cc414f-a6f0-4e9e-900b-45164cfe6a6e</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>Reset Button</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Schaltplanname" value=""/>
+      <property name="Sheet file" value="/home/alex/Dokumente/firma/produkte/rundtisch-nc/ecad/rundtisch-nc/rundtisch-nc.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>7501a36f-1eb4-4644-a242-423f3089c44c</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>Feed Advance Button</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Schaltplanname" value=""/>
+      <property name="Sheet file" value="/home/alex/Dokumente/firma/produkte/rundtisch-nc/ecad/rundtisch-nc/rundtisch-nc.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>d7dc17a4-3b18-4852-97a4-1cc6a27a5470</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>AOZ1282CI</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>http://aosmd.com/res/data_sheets/AOZ1282CI.pdf</datasheet>
+      <libsource lib="Regulator_Switching" part="AOZ1282CI" description="1.2 A Simple Buck Regulator, 4.5-36V input, 450kHz"/>
+      <property name="Schaltplanname" value=""/>
+      <property name="Sheet file" value="/home/alex/Dokumente/firma/produkte/rundtisch-nc/ecad/rundtisch-nc/rundtisch-nc.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4e8f9d9a-c9e9-4679-a44d-c2f1920f807a</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Schaltplanname" value="Display"/>
+      <property name="Sheet file" value="display.kicad_sch"/>
+      <sheetpath names="/Display/" tstamps="/9c671529-8352-4d3e-97c2-07dfb212df25/"/>
+      <tstamp>e408dcd5-a5ff-413c-ab1d-92a93a944779</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>Mode 1 LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Schaltplanname" value="Display"/>
+      <property name="Sheet file" value="display.kicad_sch"/>
+      <sheetpath names="/Display/" tstamps="/9c671529-8352-4d3e-97c2-07dfb212df25/"/>
+      <tstamp>f0514fe5-99ff-4372-8784-cd35444ab61f</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>Mode 2 LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Schaltplanname" value="Display"/>
+      <property name="Sheet file" value="display.kicad_sch"/>
+      <sheetpath names="/Display/" tstamps="/9c671529-8352-4d3e-97c2-07dfb212df25/"/>
+      <tstamp>15ee0585-673c-4b1d-a9c3-0e4b102db795</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>AO3402</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Alpha-Omega-Semicon-AOS-AO3402_C14385.pdf</datasheet>
+      <fields>
+        <field name="lcsc">https://lcsc.com/product-detail/MOSFET_Alpha-Omega-Semicon_AO3402_Alpha-Omega-Semicon-AOS-AO3402_C14385.html</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <property name="lcsc" value="https://lcsc.com/product-detail/MOSFET_Alpha-Omega-Semicon_AO3402_Alpha-Omega-Semicon-AOS-AO3402_C14385.html"/>
+      <property name="Schaltplanname" value="Display"/>
+      <property name="Sheet file" value="display.kicad_sch"/>
+      <sheetpath names="/Display/" tstamps="/9c671529-8352-4d3e-97c2-07dfb212df25/"/>
+      <tstamp>75892cd2-5ab3-4931-b98a-e758411952f1</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>AO3402</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Alpha-Omega-Semicon-AOS-AO3402_C14385.pdf</datasheet>
+      <fields>
+        <field name="lcsc">https://lcsc.com/product-detail/MOSFET_Alpha-Omega-Semicon_AO3402_Alpha-Omega-Semicon-AOS-AO3402_C14385.html</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <property name="lcsc" value="https://lcsc.com/product-detail/MOSFET_Alpha-Omega-Semicon_AO3402_Alpha-Omega-Semicon-AOS-AO3402_C14385.html"/>
+      <property name="Schaltplanname" value="Display"/>
+      <property name="Sheet file" value="display.kicad_sch"/>
+      <sheetpath names="/Display/" tstamps="/9c671529-8352-4d3e-97c2-07dfb212df25/"/>
+      <tstamp>0bdbe76d-471d-4e37-83c8-aa713ad67540</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>AO3402</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Alpha-Omega-Semicon-AOS-AO3402_C14385.pdf</datasheet>
+      <fields>
+        <field name="lcsc">https://lcsc.com/product-detail/MOSFET_Alpha-Omega-Semicon_AO3402_Alpha-Omega-Semicon-AOS-AO3402_C14385.html</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <property name="lcsc" value="https://lcsc.com/product-detail/MOSFET_Alpha-Omega-Semicon_AO3402_Alpha-Omega-Semicon-AOS-AO3402_C14385.html"/>
+      <property name="Schaltplanname" value="Display"/>
+      <property name="Sheet file" value="display.kicad_sch"/>
+      <sheetpath names="/Display/" tstamps="/9c671529-8352-4d3e-97c2-07dfb212df25/"/>
+      <tstamp>7cec2d13-85a8-466e-b446-9cf18a727d9f</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>AO3402</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Alpha-Omega-Semicon-AOS-AO3402_C14385.pdf</datasheet>
+      <fields>
+        <field name="lcsc">https://lcsc.com/product-detail/MOSFET_Alpha-Omega-Semicon_AO3402_Alpha-Omega-Semicon-AOS-AO3402_C14385.html</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <property name="lcsc" value="https://lcsc.com/product-detail/MOSFET_Alpha-Omega-Semicon_AO3402_Alpha-Omega-Semicon-AOS-AO3402_C14385.html"/>
+      <property name="Schaltplanname" value="Display"/>
+      <property name="Sheet file" value="display.kicad_sch"/>
+      <sheetpath names="/Display/" tstamps="/9c671529-8352-4d3e-97c2-07dfb212df25/"/>
+      <tstamp>eb8cf5a3-15e7-49ba-a1c3-0af762d031ba</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Schaltplanname" value="Display"/>
+      <property name="Sheet file" value="display.kicad_sch"/>
+      <sheetpath names="/Display/" tstamps="/9c671529-8352-4d3e-97c2-07dfb212df25/"/>
+      <tstamp>d6101f2c-17bc-4e05-a206-d547eda0741f</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Schaltplanname" value="Display"/>
+      <property name="Sheet file" value="display.kicad_sch"/>
+      <sheetpath names="/Display/" tstamps="/9c671529-8352-4d3e-97c2-07dfb212df25/"/>
+      <tstamp>239b63dd-e632-42a1-9b8a-db37e613123a</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>330R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Schaltplanname" value="Display"/>
+      <property name="Sheet file" value="display.kicad_sch"/>
+      <sheetpath names="/Display/" tstamps="/9c671529-8352-4d3e-97c2-07dfb212df25/"/>
+      <tstamp>e6365896-5b9e-4a06-acb0-2b2e244d46c8</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>330R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Schaltplanname" value="Display"/>
+      <property name="Sheet file" value="display.kicad_sch"/>
+      <sheetpath names="/Display/" tstamps="/9c671529-8352-4d3e-97c2-07dfb212df25/"/>
+      <tstamp>88d9332c-9534-40c5-9924-48d221426c15</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>330R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Schaltplanname" value="Display"/>
+      <property name="Sheet file" value="display.kicad_sch"/>
+      <sheetpath names="/Display/" tstamps="/9c671529-8352-4d3e-97c2-07dfb212df25/"/>
+      <tstamp>973301d1-cd2e-46f5-b83a-72331fdd4d40</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>330R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Schaltplanname" value="Display"/>
+      <property name="Sheet file" value="display.kicad_sch"/>
+      <sheetpath names="/Display/" tstamps="/9c671529-8352-4d3e-97c2-07dfb212df25/"/>
+      <tstamp>79d4159a-bb89-4c46-bc80-28a12484d245</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>330R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Schaltplanname" value="Display"/>
+      <property name="Sheet file" value="display.kicad_sch"/>
+      <sheetpath names="/Display/" tstamps="/9c671529-8352-4d3e-97c2-07dfb212df25/"/>
+      <tstamp>56679175-d9bc-4889-af75-80d85f0a787b</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>330R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Schaltplanname" value="Display"/>
+      <property name="Sheet file" value="display.kicad_sch"/>
+      <sheetpath names="/Display/" tstamps="/9c671529-8352-4d3e-97c2-07dfb212df25/"/>
+      <tstamp>abfbd997-0dab-4955-b703-e49934277727</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>330R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Schaltplanname" value="Display"/>
+      <property name="Sheet file" value="display.kicad_sch"/>
+      <sheetpath names="/Display/" tstamps="/9c671529-8352-4d3e-97c2-07dfb212df25/"/>
+      <tstamp>3f736365-6aed-49c8-a8f4-c2fe5ea78d5f</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>330R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Schaltplanname" value="Display"/>
+      <property name="Sheet file" value="display.kicad_sch"/>
+      <sheetpath names="/Display/" tstamps="/9c671529-8352-4d3e-97c2-07dfb212df25/"/>
+      <tstamp>733dfba4-8220-490d-9961-2a688eec6dce</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Schaltplanname" value="Display"/>
+      <property name="Sheet file" value="display.kicad_sch"/>
+      <sheetpath names="/Display/" tstamps="/9c671529-8352-4d3e-97c2-07dfb212df25/"/>
+      <tstamp>62160ee8-2a69-42c8-b6ba-789064ba79d8</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Schaltplanname" value="Display"/>
+      <property name="Sheet file" value="display.kicad_sch"/>
+      <sheetpath names="/Display/" tstamps="/9c671529-8352-4d3e-97c2-07dfb212df25/"/>
+      <tstamp>ff292749-68bb-48a8-acfd-8ffee92c0210</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>470R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Schaltplanname" value="Display"/>
+      <property name="Sheet file" value="display.kicad_sch"/>
+      <sheetpath names="/Display/" tstamps="/9c671529-8352-4d3e-97c2-07dfb212df25/"/>
+      <tstamp>89f89804-4d29-4977-896f-cc3b9bbb3c8e</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>470R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Schaltplanname" value="Display"/>
+      <property name="Sheet file" value="display.kicad_sch"/>
+      <sheetpath names="/Display/" tstamps="/9c671529-8352-4d3e-97c2-07dfb212df25/"/>
+      <tstamp>520bf5e0-65b8-4349-a6c4-5b762fb3c1fd</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Schaltplanname" value="Display"/>
+      <property name="Sheet file" value="display.kicad_sch"/>
+      <sheetpath names="/Display/" tstamps="/9c671529-8352-4d3e-97c2-07dfb212df25/"/>
+      <tstamp>8f9e0486-b783-4aa0-b3af-0ec11e7bbf01</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Schaltplanname" value="Display"/>
+      <property name="Sheet file" value="display.kicad_sch"/>
+      <sheetpath names="/Display/" tstamps="/9c671529-8352-4d3e-97c2-07dfb212df25/"/>
+      <tstamp>754f487d-57ff-4dfc-bb05-b8a3ee96f88f</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Schaltplanname" value="Display"/>
+      <property name="Sheet file" value="display.kicad_sch"/>
+      <sheetpath names="/Display/" tstamps="/9c671529-8352-4d3e-97c2-07dfb212df25/"/>
+      <tstamp>fe40109c-6996-4041-b99e-36b08492f4e9</tstamp>
+    </comp>
+    <comp ref="SW3">
+      <value>Rotary Encoder</value>
+      <footprint>Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Rotary_Encoder_Switch" description="Rotary encoder, dual channel, incremental quadrate outputs, with switch"/>
+      <property name="Schaltplanname" value="Display"/>
+      <property name="Sheet file" value="display.kicad_sch"/>
+      <sheetpath names="/Display/" tstamps="/9c671529-8352-4d3e-97c2-07dfb212df25/"/>
+      <tstamp>d5108543-8af1-404e-8b76-1f208e13c0e0</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>74HC595</value>
+      <footprint>Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/sn74hc595.pdf</datasheet>
+      <libsource lib="74xx" part="74HC595" description="8-bit serial in/out Shift Register 3-State Outputs"/>
+      <property name="Schaltplanname" value="Display"/>
+      <property name="Sheet file" value="display.kicad_sch"/>
+      <sheetpath names="/Display/" tstamps="/9c671529-8352-4d3e-97c2-07dfb212df25/"/>
+      <tstamp>16c3752e-d728-476e-9df2-fdcb28f27bba</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>SR420561N</value>
+      <footprint>sonstige:SR420561N</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Wuxi-ARK-Tech-Elec-SR420561N_C109200.pdf</datasheet>
+      <fields>
+        <field name="lcsc">https://lcsc.com/product-detail/Led-Segment-Display_ARKLED-Wuxi-ARK-Tech-Elec-SR420561N_C109200.html</field>
+      </fields>
+      <libsource lib="Display_Character" part="CC56-12YWA" description="4 digit 7 segment  yellow LED, common cathode"/>
+      <property name="lcsc" value="https://lcsc.com/product-detail/Led-Segment-Display_ARKLED-Wuxi-ARK-Tech-Elec-SR420561N_C109200.html"/>
+      <property name="Schaltplanname" value="Display"/>
+      <property name="Sheet file" value="display.kicad_sch"/>
+      <sheetpath names="/Display/" tstamps="/9c671529-8352-4d3e-97c2-07dfb212df25/"/>
+      <tstamp>391c516b-213f-4ac9-9402-9aa7092d66c6</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="74xx" part="74HC595">
+      <description>8-bit serial in/out Shift Register 3-State Outputs</description>
+      <docs>http://www.ti.com/lit/ds/symlink/sn74hc595.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SOIC*3.9x9.9mm*P1.27mm*</fp>
+        <fp>TSSOP*4.4x5mm*P0.65mm*</fp>
+        <fp>SOIC*5.3x10.2mm*P1.27mm*</fp>
+        <fp>SOIC*7.5x10.3mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74HC595</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/sn74hc595.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="QB" type="3state"/>
+        <pin num="2" name="QC" type="3state"/>
+        <pin num="3" name="QD" type="3state"/>
+        <pin num="4" name="QE" type="3state"/>
+        <pin num="5" name="QF" type="3state"/>
+        <pin num="6" name="QG" type="3state"/>
+        <pin num="7" name="QH" type="3state"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="QH'" type="output"/>
+        <pin num="10" name="~SRCLR" type="input"/>
+        <pin num="11" name="SRCLK" type="input"/>
+        <pin num="12" name="RCLK" type="input"/>
+        <pin num="13" name="~OE" type="input"/>
+        <pin num="14" name="SER" type="input"/>
+        <pin num="15" name="QA" type="3state"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Female">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x06">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NMOS_GDS">
+      <description>N-MOSFET transistor, gate/drain/source</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NMOS_GDS</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Rotary_Encoder_Switch">
+      <description>Rotary encoder, dual channel, incremental quadrate outputs, with switch</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>RotaryEncoder*Switch*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">Rotary_Encoder_Switch</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="B" name="B" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+        <pin num="S1" name="S1" type="passive"/>
+        <pin num="S2" name="S2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Display_Character" part="CC56-12YWA">
+      <description>4 digit 7 segment  yellow LED, common cathode</description>
+      <docs>http://www.kingbrightusa.com/images/catalog/SPEC/CC56-12YWA.pdf</docs>
+      <footprints>
+        <fp>CC56?12YWA*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CC56-12YWA</field>
+        <field name="Footprint">Display_7Segment:CC56-12YWA</field>
+        <field name="Datasheet">http://www.kingbrightusa.com/images/catalog/SPEC/CC56-12YWA.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="e" type="input"/>
+        <pin num="2" name="d" type="input"/>
+        <pin num="3" name="DPX" type="input"/>
+        <pin num="4" name="c" type="input"/>
+        <pin num="5" name="g" type="input"/>
+        <pin num="6" name="CC4" type="input"/>
+        <pin num="7" name="b" type="input"/>
+        <pin num="8" name="CC3" type="input"/>
+        <pin num="9" name="CC2" type="input"/>
+        <pin num="10" name="f" type="input"/>
+        <pin num="11" name="a" type="input"/>
+        <pin num="12" name="CC1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Module" part="Arduino_UNO_R3">
+      <description>Arduino UNO Microcontroller Module, release 3</description>
+      <docs>https://www.arduino.cc/en/Main/arduinoBoardUno</docs>
+      <footprints>
+        <fp>Arduino*UNO*R3*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">A</field>
+        <field name="Value">Arduino_UNO_R3</field>
+        <field name="Footprint">Module:Arduino_UNO_R3</field>
+        <field name="Datasheet">https://www.arduino.cc/en/Main/arduinoBoardUno</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="NotConnected"/>
+        <pin num="2" name="IOREF" type="output"/>
+        <pin num="3" name="~RESET" type="input"/>
+        <pin num="4" name="3V3" type="power_out"/>
+        <pin num="5" name="+5V" type="power_out"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="VIN" type="power_in"/>
+        <pin num="9" name="A0" type="BiDi"/>
+        <pin num="10" name="A1" type="BiDi"/>
+        <pin num="11" name="A2" type="BiDi"/>
+        <pin num="12" name="A3" type="BiDi"/>
+        <pin num="13" name="SDA/A4" type="BiDi"/>
+        <pin num="14" name="SCL/A5" type="BiDi"/>
+        <pin num="15" name="D0/RX" type="BiDi"/>
+        <pin num="16" name="D1/TX" type="BiDi"/>
+        <pin num="17" name="D2" type="BiDi"/>
+        <pin num="18" name="D3" type="BiDi"/>
+        <pin num="19" name="D4" type="BiDi"/>
+        <pin num="20" name="D5" type="BiDi"/>
+        <pin num="21" name="D6" type="BiDi"/>
+        <pin num="22" name="D7" type="BiDi"/>
+        <pin num="23" name="D8" type="BiDi"/>
+        <pin num="24" name="D9" type="BiDi"/>
+        <pin num="25" name="D10" type="BiDi"/>
+        <pin num="26" name="D11" type="BiDi"/>
+        <pin num="27" name="D12" type="BiDi"/>
+        <pin num="28" name="D13" type="BiDi"/>
+        <pin num="29" name="GND" type="power_in"/>
+        <pin num="30" name="AREF" type="input"/>
+        <pin num="31" name="SDA/A4" type="BiDi"/>
+        <pin num="32" name="SCL/A5" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Switching" part="AOZ1282CI">
+      <description>1.2 A Simple Buck Regulator, 4.5-36V input, 450kHz</description>
+      <docs>http://aosmd.com/res/data_sheets/AOZ1282CI.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AOZ1282CI</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">http://aosmd.com/res/data_sheets/AOZ1282CI.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="BST" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="FB" type="input"/>
+        <pin num="4" name="EN" type="input"/>
+        <pin num="5" name="VIN" type="power_in"/>
+        <pin num="6" name="LX" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="74xx">
+      <uri>/usr/share/kicad/library/74xx.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Display_Character">
+      <uri>/usr/share/kicad/library/Display_Character.lib</uri>
+    </library>
+    <library logical="MCU_Module">
+      <uri>/usr/share/kicad/library/MCU_Module.lib</uri>
+    </library>
+    <library logical="Regulator_Switching">
+      <uri>/usr/share/kicad/library/Regulator_Switching.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/usr/share/kicad/library/Switch.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+36V">
+      <node ref="C2" pin="1"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2"/>
+      <node ref="R19" pin="1"/>
+      <node ref="U3" pin="5" pinfunction="VIN"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="A1" pin="5" pinfunction="+5V"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="L1" pin="2" pinfunction="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="R12" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="R20" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="U1" pin="16" pinfunction="VCC"/>
+    </net>
+    <net code="3" name="/Cathode_1">
+      <node ref="A1" pin="23" pinfunction="D8"/>
+      <node ref="Q1" pin="1" pinfunction="G"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="4" name="/Cathode_2">
+      <node ref="A1" pin="22" pinfunction="D7"/>
+      <node ref="Q2" pin="1" pinfunction="G"/>
+      <node ref="R16" pin="1"/>
+    </net>
+    <net code="5" name="/Cathode_3">
+      <node ref="A1" pin="21" pinfunction="D6"/>
+      <node ref="Q3" pin="1" pinfunction="G"/>
+      <node ref="R17" pin="1"/>
+    </net>
+    <net code="6" name="/Cathode_4">
+      <node ref="A1" pin="20" pinfunction="D5"/>
+      <node ref="Q4" pin="1" pinfunction="G"/>
+      <node ref="R18" pin="1"/>
+    </net>
+    <net code="7" name="/DIR">
+      <node ref="A1" pin="10" pinfunction="A1"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3"/>
+    </net>
+    <net code="8" name="/Display/SEG_A">
+      <node ref="R4" pin="1"/>
+      <node ref="U1" pin="2" pinfunction="QC"/>
+    </net>
+    <net code="9" name="/Display/SEG_B">
+      <node ref="R5" pin="1"/>
+      <node ref="U1" pin="15" pinfunction="QA"/>
+    </net>
+    <net code="10" name="/Display/SEG_C">
+      <node ref="R6" pin="1"/>
+      <node ref="U1" pin="4" pinfunction="QE"/>
+    </net>
+    <net code="11" name="/Display/SEG_D">
+      <node ref="R7" pin="1"/>
+      <node ref="U1" pin="6" pinfunction="QG"/>
+    </net>
+    <net code="12" name="/Display/SEG_DP">
+      <node ref="R11" pin="1"/>
+      <node ref="U1" pin="5" pinfunction="QF"/>
+    </net>
+    <net code="13" name="/Display/SEG_E">
+      <node ref="R8" pin="1"/>
+      <node ref="U1" pin="7" pinfunction="QH"/>
+    </net>
+    <net code="14" name="/Display/SEG_F">
+      <node ref="R9" pin="1"/>
+      <node ref="U1" pin="1" pinfunction="QB"/>
+    </net>
+    <net code="15" name="/Display/SEG_G">
+      <node ref="R10" pin="1"/>
+      <node ref="U1" pin="3" pinfunction="QD"/>
+    </net>
+    <net code="16" name="/ENA">
+      <node ref="A1" pin="11" pinfunction="A2"/>
+      <node ref="J1" pin="5" pinfunction="Pin_5"/>
+    </net>
+    <net code="17" name="/Encoder_A">
+      <node ref="A1" pin="12" pinfunction="A3"/>
+      <node ref="R2" pin="2"/>
+      <node ref="SW3" pin="A" pinfunction="A"/>
+    </net>
+    <net code="18" name="/Encoder_B">
+      <node ref="A1" pin="13" pinfunction="SDA/A4"/>
+      <node ref="R3" pin="1"/>
+      <node ref="SW3" pin="B" pinfunction="B"/>
+    </net>
+    <net code="19" name="/Encoder_Switch">
+      <node ref="A1" pin="17" pinfunction="D2"/>
+      <node ref="R12" pin="2"/>
+      <node ref="SW3" pin="S1" pinfunction="S1"/>
+    </net>
+    <net code="20" name="/LED_1">
+      <node ref="A1" pin="19" pinfunction="D4"/>
+      <node ref="R14" pin="1"/>
+    </net>
+    <net code="21" name="/LED_2">
+      <node ref="A1" pin="18" pinfunction="D3"/>
+      <node ref="R15" pin="1"/>
+    </net>
+    <net code="22" name="/RCLK">
+      <node ref="A1" pin="25" pinfunction="D10"/>
+      <node ref="U1" pin="12" pinfunction="RCLK"/>
+    </net>
+    <net code="23" name="/REG_FB">
+      <node ref="R20" pin="1"/>
+      <node ref="R21" pin="1"/>
+      <node ref="U3" pin="3" pinfunction="FB"/>
+    </net>
+    <net code="24" name="/SER">
+      <node ref="A1" pin="28" pinfunction="D13"/>
+      <node ref="U1" pin="14" pinfunction="SER"/>
+    </net>
+    <net code="25" name="/SRCLK">
+      <node ref="A1" pin="27" pinfunction="D12"/>
+      <node ref="U1" pin="11" pinfunction="SRCLK"/>
+    </net>
+    <net code="26" name="/STEP">
+      <node ref="A1" pin="9" pinfunction="A0"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1"/>
+    </net>
+    <net code="27" name="/~OE">
+      <node ref="A1" pin="24" pinfunction="D9"/>
+      <node ref="U1" pin="13" pinfunction="~OE"/>
+    </net>
+    <net code="28" name="/~SRCLR">
+      <node ref="A1" pin="26" pinfunction="D11"/>
+      <node ref="U1" pin="10" pinfunction="~SRCLR"/>
+    </net>
+    <net code="29" name="GND">
+      <node ref="A1" pin="29" pinfunction="GND"/>
+      <node ref="A1" pin="6" pinfunction="GND"/>
+      <node ref="A1" pin="7" pinfunction="GND"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="D1" pin="1" pinfunction="K"/>
+      <node ref="D2" pin="1" pinfunction="K"/>
+      <node ref="D3" pin="2" pinfunction="A"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4"/>
+      <node ref="J1" pin="6" pinfunction="Pin_6"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1"/>
+      <node ref="Q1" pin="3" pinfunction="S"/>
+      <node ref="Q2" pin="3" pinfunction="S"/>
+      <node ref="Q3" pin="3" pinfunction="S"/>
+      <node ref="Q4" pin="3" pinfunction="S"/>
+      <node ref="R13" pin="2"/>
+      <node ref="R16" pin="2"/>
+      <node ref="R17" pin="2"/>
+      <node ref="R18" pin="2"/>
+      <node ref="R21" pin="2"/>
+      <node ref="SW1" pin="2" pinfunction="2"/>
+      <node ref="SW3" pin="C" pinfunction="C"/>
+      <node ref="SW3" pin="S2" pinfunction="S2"/>
+      <node ref="U1" pin="8" pinfunction="GND"/>
+      <node ref="U3" pin="2" pinfunction="GND"/>
+    </net>
+    <net code="30" name="Net-(A1-Pad1)">
+      <node ref="A1" pin="1" pinfunction="NC"/>
+    </net>
+    <net code="31" name="Net-(A1-Pad14)">
+      <node ref="A1" pin="14" pinfunction="SCL/A5"/>
+    </net>
+    <net code="32" name="Net-(A1-Pad15)">
+      <node ref="A1" pin="15" pinfunction="D0/RX"/>
+    </net>
+    <net code="33" name="Net-(A1-Pad16)">
+      <node ref="A1" pin="16" pinfunction="D1/TX"/>
+    </net>
+    <net code="34" name="Net-(A1-Pad2)">
+      <node ref="A1" pin="2" pinfunction="IOREF"/>
+    </net>
+    <net code="35" name="Net-(A1-Pad3)">
+      <node ref="A1" pin="3" pinfunction="~RESET"/>
+      <node ref="SW1" pin="1" pinfunction="1"/>
+    </net>
+    <net code="36" name="Net-(A1-Pad30)">
+      <node ref="A1" pin="30" pinfunction="AREF"/>
+    </net>
+    <net code="37" name="Net-(A1-Pad31)">
+      <node ref="A1" pin="31" pinfunction="SDA/A4"/>
+    </net>
+    <net code="38" name="Net-(A1-Pad32)">
+      <node ref="A1" pin="32" pinfunction="SCL/A5"/>
+    </net>
+    <net code="39" name="Net-(A1-Pad4)">
+      <node ref="A1" pin="4" pinfunction="3V3"/>
+    </net>
+    <net code="40" name="Net-(A1-Pad8)">
+      <node ref="A1" pin="8" pinfunction="VIN"/>
+    </net>
+    <net code="41" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1"/>
+      <node ref="U3" pin="1" pinfunction="BST"/>
+    </net>
+    <net code="42" name="Net-(C3-Pad2)">
+      <node ref="C3" pin="2"/>
+      <node ref="D3" pin="1" pinfunction="K"/>
+      <node ref="L1" pin="1" pinfunction="1"/>
+      <node ref="U3" pin="6" pinfunction="LX"/>
+    </net>
+    <net code="43" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A"/>
+      <node ref="R14" pin="2"/>
+    </net>
+    <net code="44" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2" pinfunction="A"/>
+      <node ref="R15" pin="2"/>
+    </net>
+    <net code="45" name="Net-(J3-Pad1)">
+      <node ref="J3" pin="1" pinfunction="Pin_1"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="46" name="Net-(Q1-Pad2)">
+      <node ref="Q1" pin="2" pinfunction="D"/>
+      <node ref="U2" pin="6" pinfunction="CC4"/>
+    </net>
+    <net code="47" name="Net-(Q2-Pad2)">
+      <node ref="Q2" pin="2" pinfunction="D"/>
+      <node ref="U2" pin="8" pinfunction="CC3"/>
+    </net>
+    <net code="48" name="Net-(Q3-Pad2)">
+      <node ref="Q3" pin="2" pinfunction="D"/>
+      <node ref="U2" pin="9" pinfunction="CC2"/>
+    </net>
+    <net code="49" name="Net-(Q4-Pad2)">
+      <node ref="Q4" pin="2" pinfunction="D"/>
+      <node ref="U2" pin="12" pinfunction="CC1"/>
+    </net>
+    <net code="50" name="Net-(R10-Pad2)">
+      <node ref="R10" pin="2"/>
+      <node ref="U2" pin="5" pinfunction="g"/>
+    </net>
+    <net code="51" name="Net-(R11-Pad2)">
+      <node ref="R11" pin="2"/>
+      <node ref="U2" pin="3" pinfunction="DPX"/>
+    </net>
+    <net code="52" name="Net-(R19-Pad2)">
+      <node ref="R19" pin="2"/>
+      <node ref="U3" pin="4" pinfunction="EN"/>
+    </net>
+    <net code="53" name="Net-(R4-Pad2)">
+      <node ref="R4" pin="2"/>
+      <node ref="U2" pin="11" pinfunction="a"/>
+    </net>
+    <net code="54" name="Net-(R5-Pad2)">
+      <node ref="R5" pin="2"/>
+      <node ref="U2" pin="7" pinfunction="b"/>
+    </net>
+    <net code="55" name="Net-(R6-Pad2)">
+      <node ref="R6" pin="2"/>
+      <node ref="U2" pin="4" pinfunction="c"/>
+    </net>
+    <net code="56" name="Net-(R7-Pad2)">
+      <node ref="R7" pin="2"/>
+      <node ref="U2" pin="2" pinfunction="d"/>
+    </net>
+    <net code="57" name="Net-(R8-Pad2)">
+      <node ref="R8" pin="2"/>
+      <node ref="U2" pin="1" pinfunction="e"/>
+    </net>
+    <net code="58" name="Net-(R9-Pad2)">
+      <node ref="R9" pin="2"/>
+      <node ref="U2" pin="10" pinfunction="f"/>
+    </net>
+    <net code="59" name="Net-(U1-Pad9)">
+      <node ref="U1" pin="9" pinfunction="QH'"/>
+    </net>
+  </nets>
+</export>
