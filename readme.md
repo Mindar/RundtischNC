@@ -3,7 +3,7 @@ Rundtisch NC is a numerical control for indexing heads. It allows you to set a n
 
 *For international visitors: Unfortunately this repository is mostly in german. A notable exception to this is the firmware. In the future there might be a english version of the documentation, but for now there isn't one 😪*
 
-[User manual 🇺🇸🇬🇧 / Bedienungsanleitung 🇩🇪 (.pdf)](./doc/bedienungsanleitung.pdf)
+[User manual / Bedienungsanleitung 🇩🇪 (.pdf)](./doc/bedienungsanleitung.pdf)
 
 ![](./img/title.jpg)
 
