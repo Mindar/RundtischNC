@@ -17,7 +17,7 @@
 // and doesn't stall!
 
 // Maximum Motor RPM
-#define MAX_SPEED 90 * 5
+#define MAX_SPEED 90
 
 // Max RPM/s acceleration
 #define MAX_ACCEL 90
