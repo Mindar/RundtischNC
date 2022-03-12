@@ -42,7 +42,11 @@ void setup() {
 
 	pinMode(STEP, OUTPUT);
 	pinMode(DIR, OUTPUT);
-	pinMode(ENA, OUTPUT);
+	// pinMode(ENA, OUTPUT); // not needed
+
+	pinMode(ENC_SW, INPUT_PULLUP);
+	pinMode(ENC_A, INPUT_PULLUP);
+	pinMode(ENC_B, INPUT_PULLUP);
 
 	setupDisplay();
 
