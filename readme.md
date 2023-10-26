@@ -5,8 +5,9 @@ Rundtisch NC is a numerical control for indexing heads. It allows you to set a n
 
 [User manual / Bedienungsanleitung 🇩🇪 (.pdf)](./doc/bedienungsanleitung.pdf)
 
+![](./img/application.jpeg)
+![](./img/system.jpeg)
 ![](./img/title.jpg)
-
 
 ## License
 - Firmware: MIT
